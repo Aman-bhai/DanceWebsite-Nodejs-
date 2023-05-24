@@ -2,13 +2,14 @@ h1{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align:center;
     font-size:1.8rem;
-    margin:18px 0;
+    margin-top:35px;
 }
 .myform{
     display:flex;
     flex-direction:column;
     justify-content: center;
     align-items:center;
+    height:420px;
 }
 input{
     width:40%;
