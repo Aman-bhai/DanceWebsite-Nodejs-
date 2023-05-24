@@ -1,0 +1,47 @@
+extends basic.pug
+
+block scripts
+    script(src='../static/script.js')
+block style 
+    style
+        include ../static/style.css
+
+block content
+    h2.gallaryh2 GALLARY
+    div.container
+        div#photos-box
+            h3.gallaryh3 Photo-Session Jan 2023
+            div.photos
+                div.photo-card
+                    img(src='../static/hh.jpg', alt='hip-hop',class='dance')
+                div.photo-card
+                    img(src='../static/rr.jpg', alt='rock and roll',class='dance')
+                div.photo-card
+                    img(src='../static/salsa.jpg', alt='salsa',class='dance')
+                div.photo-card
+                    img(src='../static/Odissi_Performance_DS.jpg', alt='Indian',class='dance')
+
+
+        div#photos-box-1
+            h3.gallaryh3 Photo-Session April 2023
+            div.photos
+                div.photo-card
+                    img(src='../static/hh1.jpg', alt='hip-hop',class='dance')
+                div.photo-card 
+                    img(src='../static/salsa2.jpg', alt='salsa',class='dance')
+                div.photo-card
+                    img(src='../static/rr3.jpg', alt='rock and roll',class='dance')
+                div.photo-card
+                    img(src='../static/Kuchipudi_Performer_DS.jpg', alt='Indian',class='dance')
+
+        div#photos-box
+            h3.gallaryh3 Photo-Session July 2023
+            div.photos
+                div.photo-card
+                    img(src='../static/hh3.jpg', alt='hip-hop',class='dance')
+                div.photo-card 
+                    img(src='../static/rr.png', alt='salsa',class='dance')
+                div.photo-card
+                    img(src='../static/salsa3.jpg', alt='rock and roll',class='dance')
+                div.photo-card
+                    img(src='../static/salsa4.webp', alt='Indian',class='dance')
