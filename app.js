@@ -5,11 +5,14 @@ const app=express();
 const bodyparser=require('body-parser');
 const port=80;
 var mongoose=require('mongoose')
-mongoose.connect('mongodb://127.0.0.1:27017/Contactdance',{useNewUrlParser:true,useUnifiedTopology:true})
-.then(()=>{
+const DB='mongodb+srv://sonisir1920:Atlas2gmail@cluster.udhmrjm.mongodb.net/Contactdance?retryWrites=true&w=majority'
+mongoose.connect(DB,{
+    useNewUrlParser:true,
+    useUnifiedTopology:true,
+ 
+}).then(()=>{
     console.log('We are connected  to mongodb successfully..');
-})
-.catch((err)=>{
+}).catch((err)=>{
 console.error(err);
 });
 const danceschema= new mongoose.Schema({
