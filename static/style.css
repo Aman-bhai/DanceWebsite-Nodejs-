@@ -8,6 +8,8 @@
 }
 #navbar{
     background-color: rgba(236, 45, 45, 0.881);
+    height: 60px;
+    font-size:1.2rem;
     color:white;
     padding:13px 30px;
     font-family: 'Yeon Sung', cursive;
